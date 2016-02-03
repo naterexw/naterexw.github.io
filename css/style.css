@@ -36,6 +36,9 @@ header .container img {
 
 header .container h1 {
   margin-bottom: 3rem;
+  -webkit-animation-duration: 1.5s;
+  -webkit-animation-delay: 2s;
+  -webkit-animation-iteration-count: 2;
 }
 
 header .container h2 {
@@ -87,10 +90,20 @@ header .container img.icon {
   padding: 1rem 0 1rem 0;
 }
 
+.portfolio .container a {
+  text-decoration: none;
+}
+
 .portfolio .container h3 {
   font-size: 2.5rem;
   text-align: center;
   font-weight: bold;
+}
+
+.portfolio .container h5 {
+  font-size: 2rem;
+  text-align: center;
+  text-decoration: none;
 }
 
 .portfolio .container .row h4 {
@@ -101,6 +114,18 @@ header .container img.icon {
   padding-bottom: 2em;
 }
 
-.portfolio .container .row .portfolio-item img{
+.portfolio .container .row .portfolio-item a {
+  text-decoration: none;
+}
+
+.portfolio .container .row .portfolio-item img {
   border: 1px solid lightgrey;
+  filter: gray; /* IE6-9 */
+  filter: grayscale(35%); /* Microsoft Edge and Firefox 35+ */
+  -webkit-filter: grayscale(35%); /* Google Chrome, Safari 6+ & Opera 15+ */
+}
+
+.portfolio .container .row .portfolio-item img:hover {
+  filter: none;
+  -webkit-filter: grayscale(0);
 }
