@@ -29,7 +29,7 @@ header .container {
 
 header .container img {
   margin: 3rem 0 0 0;
-  border-radius: 100%;
+  /*border-radius: 100%;*/
   height: 200px;
   width: auto;
 }
@@ -47,18 +47,18 @@ header .container h2 {
 
 
 header .container .icons-row {
-  width: 32%;
-  margin: 0 auto;
-  /*background: pink;*/
+  /*border: 1px solid pink;*/
+  padding: 1rem 0 1rem 0;
 }
 
 header .container .icons {
-  width: 33.33%;
   /*border: 1px solid green;*/
-  text-align: left;
-  float: left;
-  padding: 1rem 0 3rem 0;
+  text-align: center;
+}
 
+header .container .icons a {
+  text-decoration: none;
+  color: white;
 }
 
 header .container img.icon {
@@ -67,65 +67,65 @@ header .container img.icon {
   margin: 0 auto;
 }
 
-.tech {
+section.tech {
   background: #ecf0f1;
   padding: 2rem 0 0 0;
 }
 
-.tech .container .stack .panel-heading, .tools .panel-heading {
+section.tech .container .stack .panel-heading, .tools .panel-heading {
   font-size: 2rem;
   font-weight: bold;
 }
 
-.tech .container .stack ul, .tools ul {
+section.tech .container .stack ul, .tools ul {
   list-style-type: none;
   /*list-style-position: inside;*/
 }
 
-.tech .container .stack ul li, .tools ul li {
+section.tech .container .stack ul li, .tools ul li {
   list-style-type: circle;
 }
 
-.portfolio {
+section.portfolio {
   padding: 1rem 0 1rem 0;
 }
 
-.portfolio .container a {
+section.portfolio .container a {
   text-decoration: none;
 }
 
-.portfolio .container h3 {
+section.portfolio .container h3 {
   font-size: 2.5rem;
   text-align: center;
   font-weight: bold;
 }
 
-.portfolio .container h5 {
+section.portfolio .container h5 {
   font-size: 2rem;
   text-align: center;
   text-decoration: none;
 }
 
-.portfolio .container .row h4 {
+section.portfolio .container .row h4 {
   text-align: center;
 }
 
-.portfolio .container .row .portfolio-item {
+section.portfolio .container .row .portfolio-item {
   padding-bottom: 2em;
 }
 
-.portfolio .container .row .portfolio-item a {
+section.portfolio .container .row .portfolio-item a {
   text-decoration: none;
 }
 
-.portfolio .container .row .portfolio-item img {
+section.portfolio .container .row .portfolio-item img {
   border: 1px solid lightgrey;
   filter: gray; /* IE6-9 */
   filter: grayscale(35%); /* Microsoft Edge and Firefox 35+ */
   -webkit-filter: grayscale(35%); /* Google Chrome, Safari 6+ & Opera 15+ */
 }
 
-.portfolio .container .row .portfolio-item img:hover {
+section.portfolio .container .row .portfolio-item img:hover {
   filter: none;
   -webkit-filter: grayscale(0);
 }
