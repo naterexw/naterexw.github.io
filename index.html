@@ -11,6 +11,16 @@
 
   <title>Nate Welling</title>
 
+  <!-- Google Analytics -->
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-72835954-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+
   <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
 
@@ -73,12 +83,58 @@
         <header>
           <div class="container">
             <div class="row">
-              <div class="col-lg-12">
-                <img class="img-responsive" src="img/profile.png" alt="">
-                <div class="intro-text">
-                  <span class="name">Nate Welling</span>
-                  <!-- <hr class="star-light"> -->
-                  <span class="skills">Full stack Ruby on Rails web developer</span>
+              <div class="col-sm-3 col-sm-offset-2">
+                <img class="img-responsive img-rounded" src="img/profile.png" alt="Nate Welling">
+              </div>
+              <div class="col-sm-5 hidden-lg hidden-md">
+                <div class="col-xs-12">
+                  <div class="intro-text">
+                    <span class="name">Nate Welling</span>
+                    <!-- <hr class="star-light"> -->
+                    <span class="skills">Full stack Ruby on Rails web developer</span>
+                  </div>
+                </div>
+                <div class="col-xs-12">
+                  <ul class="list-inline">
+                    <li>
+                      <a href="https://github.com/naterexw" target="_blank" class="btn-social btn-outline" data-toggle="tooltip" data-placement="bottom" title="Github"><i class="fa fa-fw fa-github"></i></a>
+                    </li>
+                    <li>
+                      <a href="https://twitter.com/naterexw" target="_blank" class="btn-social btn-outline" data-toggle="tooltip" data-placement="bottom" title="Twitter"><i class="fa fa-fw fa-twitter"></i></a>
+                    </li>
+                    <li>
+                      <a href="https://www.linkedin.com/in/natewelling" target="_blank" class="btn-social btn-outline" data-toggle="tooltip" data-placement="bottom" title="Linkedin"><i class="fa fa-fw fa-linkedin"></i></a>
+                    </li>
+                  </ul>
+
+                  <a href="#contact" class="btn btn-lg btn-outline">
+                    <i class="fa fa-envelope"></i> Contact me
+                  </a>
+                </div>
+              </div>
+              <div class="col-sm-5 hidden-xs hidden-sm text-left">
+                <div class="col-xs-12">
+                  <div class="intro-text">
+                    <span class="name">Nate Welling</span>
+                    <!-- <hr class="star-light"> -->
+                    <span class="skills">Fullstack Ruby on Rails web developer</span>
+                  </div>
+                </div>
+                <div class="col-xs-12">
+                  <ul class="list-inline">
+                    <li>
+                      <a href="https://github.com/naterexw" target="_blank" class="btn-social btn-outline" data-toggle="tooltip" data-placement="bottom" title="Github"><i class="fa fa-fw fa-github"></i></a>
+                    </li>
+                    <li>
+                      <a href="https://twitter.com/naterexw" target="_blank" class="btn-social btn-outline" data-toggle="tooltip" data-placement="bottom" title="Twitter"><i class="fa fa-fw fa-twitter"></i></a>
+                    </li>
+                    <li>
+                      <a href="https://www.linkedin.com/in/natewelling" target="_blank" class="btn-social btn-outline" data-toggle="tooltip" data-placement="bottom" title="Linkedin"><i class="fa fa-fw fa-linkedin"></i></a>
+                    </li>
+                  </ul>
+                  <a href="#contact" class="btn btn-lg btn-outline">
+                    <i class="fa fa-envelope"></i> Contact me
+                  </a>
                 </div>
               </div>
             </div>
@@ -90,8 +146,9 @@
           <div class="container">
             <div class="row">
               <div class="col-lg-12 text-center">
-                <h2>Portfolio</h2>
-                <hr class="star-primary">
+                <h2>Client Portfolio</h2>
+                <hr>
+                <!-- <hr class="star-primary"> -->
               </div>
             </div>
             <div class="row">
@@ -125,6 +182,18 @@
                   <img src="img/portfolio/css.png" class="img-responsive" alt="">
                 </a>
               </div>
+            </div>
+
+            <br>
+
+            <div class="row">
+              <div class="col-lg-12 text-center">
+                <h2>Prototypes</h2>
+                <hr>
+                <!-- <hr class="star-primary"> -->
+              </div>
+            </div>
+            <div class="row">
               <div class="col-sm-4 portfolio-item">
                 <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
                   <div class="caption">
@@ -135,6 +204,7 @@
                   <img src="img/portfolio/payeat.png" class="img-responsive" alt="">
                 </a>
               </div>
+
               <div class="col-sm-4 portfolio-item">
                 <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
                   <div class="caption">
@@ -145,16 +215,7 @@
                   <img src="img/portfolio/recipe.png" class="img-responsive" alt="">
                 </a>
               </div>
-              <div class="col-sm-4 portfolio-item">
-                <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
-                  <div class="caption">
-                    <div class="caption-content">
-                      <i class="fa fa-search-plus fa-3x"></i>
-                    </div>
-                  </div>
-                  <img src="img/portfolio/submarine.png" class="img-responsive" alt="">
-                </a>
-              </div>
+
             </div>
           </div>
         </section>
@@ -165,21 +226,49 @@
             <div class="row">
               <div class="col-lg-12 text-center">
                 <h2>About</h2>
-                <hr class="star-light">
+                <br><br>
+                <!-- <hr class="star-light"> -->
               </div>
             </div>
             <div class="row">
-              <div class="col-lg-4 col-lg-offset-2">
-                <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
+              <div class="col-xs-4 text-right">
+                <p>Specialization:</p>
               </div>
-              <div class="col-lg-4">
-                <p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
+              <div class="col-xs-8">
+                <p>Improving frontend UI/UX for conversion optimization</p>
               </div>
-<!--               <div class="col-lg-8 col-lg-offset-2 text-center"z>
-                <a href="#" class="btn btn-lg btn-outline">
-                  <i class="fa fa-download"></i> Download Theme
-                </a>
-              </div> -->
+            </div>
+            <div class="row">
+              <div class="col-xs-4 text-right">
+                <p>Frontend:</p>
+              </div>
+              <div class="col-xs-8">
+                <p>custom Bootstrap 3 (HTML5, CSS3, jQuery)</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-4 text-right">
+                <p>Backend:</p>
+              </div>
+              <div class="col-xs-8">
+                <p>Ruby on Rails, Postgresql, Redis</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-4 text-right">
+                <p>Deployment:</p>
+              </div>
+              <div class="col-xs-8">
+                <p>Heroku, Amazon AWS</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-4 text-right">
+                <p>Currently:</p>
+              </div>
+              <div class="col-xs-8">
+                <p>I am <span class="label label-warning">available</span> for hire.</p>
+              </div>
             </div>
           </div>
         </section>
@@ -190,7 +279,8 @@
             <div class="row">
               <div class="col-lg-12 text-center">
                 <h2>Contact Me</h2>
-                <hr class="star-primary">
+                <!-- <hr> -->
+                <!-- <hr class="star-primary"> -->
               </div>
             </div>
             <div class="row">
@@ -201,28 +291,28 @@
                   <div class="row control-group">
                     <div class="form-group col-xs-12 floating-label-form-group controls">
                       <label>Name</label>
-                      <input type="text" class="form-control" placeholder="Name" id="name" required data-validation-required-message="Please enter your name.">
+                      <input type="text" class="form-control" placeholder="Name" id="name" required data-validation-required-message="Please enter your name." required>
                       <p class="help-block text-danger"></p>
                     </div>
                   </div>
                   <div class="row control-group">
                     <div class="form-group col-xs-12 floating-label-form-group controls">
                       <label>Email Address</label>
-                      <input type="email" class="form-control" placeholder="Email Address" id="email" required data-validation-required-message="Please enter your email address.">
+                      <input type="email" class="form-control" placeholder="Email Address" id="email" required data-validation-required-message="Please enter your email address." required>
                       <p class="help-block text-danger"></p>
                     </div>
                   </div>
-                  <div class="row control-group">
+<!--                   <div class="row control-group">
                     <div class="form-group col-xs-12 floating-label-form-group controls">
                       <label>Phone Number</label>
                       <input type="tel" class="form-control" placeholder="Phone Number" id="phone" required data-validation-required-message="Please enter your phone number.">
                       <p class="help-block text-danger"></p>
                     </div>
-                  </div>
+                  </div> -->
                   <div class="row control-group">
                     <div class="form-group col-xs-12 floating-label-form-group controls">
                       <label>Message</label>
-                      <textarea rows="5" class="form-control" placeholder="Message" id="message" required data-validation-required-message="Please enter a message."></textarea>
+                      <textarea rows="5" class="form-control" placeholder="Message" id="message" required data-validation-required-message="Please enter a message." required></textarea>
                       <p class="help-block text-danger"></p>
                     </div>
                   </div>
@@ -244,46 +334,39 @@
           <div class="footer-above">
             <div class="container">
               <div class="row">
-                <div class="footer-col col-md-4">
-                  <h3>Location</h3>
-                  <p>3481 Melrose Place<br>Beverly Hills, CA 90210</p>
+                <div class="footer-col col-md-6">
+                  <!-- <h3>Location</h3> -->
+                  <p>Copyright 2016 &copy; NateWelling.com</p>
                 </div>
-                <div class="footer-col col-md-4">
+<!--                 <div class="footer-col col-md-4">
                   <h3>Around the Web</h3>
                   <ul class="list-inline">
                     <li>
-                      <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
+                      <a href="#" target="_blank" class="btn-social btn-outline" data-toggle="tooltip" data-placement="bottom" title="Facebook"><i class="fa fa-fw fa-facebook"></i></a>
                     </li>
                     <li>
-                      <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
+                      <a href="#" target="_blank" class="btn-social btn-outline" data-toggle="tooltip" data-placement="bottom" title="Github"><i class="fa fa-fw fa-github"></i></a>
                     </li>
                     <li>
-                      <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
-                    </li>
-                    <li>
-                      <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
-                    </li>
-                    <li>
-                      <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-dribbble"></i></a>
+                      <a href="#" target="_blank" class="btn-social btn-outline" data-toggle="tooltip" data-placement="bottom" title="Twitter"><i class="fa fa-fw fa-twitter"></i></a>
                     </li>
                   </ul>
-                </div>
-                <div class="footer-col col-md-4">
-                  <h3>About Freelancer</h3>
-                  <p>Freelance is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.</p>
+                </div> -->
+                <div class="footer-col col-md-6">
+                  <p>Designed and coded with <i class="fa fa-heart"></i></p>
                 </div>
               </div>
             </div>
           </div>
-          <div class="footer-below">
+<!--           <div class="footer-below">
             <div class="container">
               <div class="row">
                 <div class="col-lg-12">
-                  Copyright &copy; Your Website 2014
+                  Copyright 2016 &copy; NateWelling.com
                 </div>
               </div>
             </div>
-          </div>
+          </div> -->
         </footer>
 
         <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
@@ -309,18 +392,18 @@
                     <h2>Getaudiofromvideo.com</h2>
                     <hr class="star-primary">
                     <img src="img/portfolio/gafv.png" class="img-responsive img-centered" alt="">
-                    <p>Youtube video downloader</p>
+                    <p>Online Youtube video converter and downloader</p>
                     <ul class="list-inline item-details">
                       <li>Client:
-                        <strong><a href="http://getaudiofromvideo.com" target="_blank">Getaudiofromvideo.com</a>
+                        <strong><a href="http://getaudiofromvideo.com" target="_blank">GetAudioFromVideo.com</a>
                         </strong>
                       </li>
                       <li>Date:
-                        <strong><a href="http://startbootstrap.com">April 2014</a>
+                        <strong>January 2010
                         </strong>
                       </li>
                       <li>Service:
-                        <strong><a href="http://startbootstrap.com">Web Development</a>
+                        <strong>Fullstack (front & backend)
                         </strong>
                       </li>
                     </ul>
@@ -343,21 +426,21 @@
               <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
                   <div class="modal-body">
-                    <h2>Project Title</h2>
+                    <h2>IOnlyFlyFirstClass.com</h2>
                     <hr class="star-primary">
-                    <img src="img/portfolio/cake.png" class="img-responsive img-centered" alt="">
-                    <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                    <img src="img/portfolio/ioffc.png" class="img-responsive img-centered" alt="">
+                    <p>First & business class flights luxury travel agency</p>
                     <ul class="list-inline item-details">
                       <li>Client:
-                        <strong><a href="http://startbootstrap.com" target="_blank">Start Bootstrap</a>
+                        <strong><a href="http://ionlyflyfirstclass.com" target="_blank">IOnlyFlyFirstClass.com</a>
                         </strong>
                       </li>
                       <li>Date:
-                        <strong><a href="http://startbootstrap.com">April 2014</a>
+                        <strong>February 2015
                         </strong>
                       </li>
                       <li>Service:
-                        <strong><a href="http://startbootstrap.com">Web Development</a>
+                        <strong>Frontend
                         </strong>
                       </li>
                     </ul>
@@ -380,21 +463,21 @@
               <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
                   <div class="modal-body">
-                    <h2>Project Title</h2>
+                    <h2>CSSButtonGenerator.com</h2>
                     <hr class="star-primary">
-                    <img src="img/portfolio/circus.png" class="img-responsive img-centered" alt="">
-                    <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                    <img src="img/portfolio/css.png" class="img-responsive img-centered" alt="">
+                    <p>Create website buttons using HTML & CSS</p>
                     <ul class="list-inline item-details">
                       <li>Client:
-                        <strong><a href="http://startbootstrap.com" target="_blank">Start Bootstrap</a>
+                        <strong><a href="http://cssbuttongenerator.com" target="_blank">CSSButtonGenerator.com</a>
                         </strong>
                       </li>
                       <li>Date:
-                        <strong><a href="http://startbootstrap.com">April 2014</a>
+                        <strong>March 2014
                         </strong>
                       </li>
                       <li>Service:
-                        <strong><a href="http://startbootstrap.com">Web Development</a>
+                        <strong>Fullstack (front & backend)
                         </strong>
                       </li>
                     </ul>
@@ -417,21 +500,21 @@
               <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
                   <div class="modal-body">
-                    <h2>Project Title</h2>
+                    <h2>PayEat</h2>
                     <hr class="star-primary">
-                    <img src="img/portfolio/game.png" class="img-responsive img-centered" alt="">
-                    <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                    <img src="img/portfolio/payeat.png" class="img-responsive img-centered" alt="">
+                    <p>Order taking and payment app for restaurants</p>
                     <ul class="list-inline item-details">
-                      <li>Client:
-                        <strong><a href="http://startbootstrap.com" target="_blank">Start Bootstrap</a>
+                      <li>Prototype:
+                        <strong><a href="http://payeat.herokuapp.com" target="_blank">PayEat</a>
                         </strong>
                       </li>
                       <li>Date:
-                        <strong><a href="http://startbootstrap.com">April 2014</a>
+                        <strong>March 2016
                         </strong>
                       </li>
                       <li>Service:
-                        <strong><a href="http://startbootstrap.com">Web Development</a>
+                        <strong>Fullstack (front & backend)
                         </strong>
                       </li>
                     </ul>
@@ -454,21 +537,23 @@
               <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
                   <div class="modal-body">
-                    <h2>Project Title</h2>
+                    <h2>RecipeVault</h2>
                     <hr class="star-primary">
-                    <img src="img/portfolio/safe.png" class="img-responsive img-centered" alt="">
-                    <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                    <img src="img/portfolio/recipe.png" class="img-responsive img-centered" alt="">
+                    <p>
+                      Online recipe database app
+                    </p>
                     <ul class="list-inline item-details">
-                      <li>Client:
-                        <strong><a href="http://startbootstrap.com" target="_blank">Start Bootstrap</a>
+                      <li>Prototype:
+                        <strong><a href="http://recipe-vault.herokuapp.com/" target="_blank">RecipeVault</a>
                         </strong>
                       </li>
                       <li>Date:
-                        <strong><a href="http://startbootstrap.com">April 2014</a>
+                        <strong>December 2015
                         </strong>
                       </li>
                       <li>Service:
-                        <strong><a href="http://startbootstrap.com">Web Development</a>
+                        <strong>Fullstack (front & backend)
                         </strong>
                       </li>
                     </ul>
