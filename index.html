@@ -13,24 +13,27 @@
 
   <!-- Google Analytics -->
   <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    (function(i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function() {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+      a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
     ga('create', 'UA-72835954-1', 'auto');
     ga('send', 'pageview');
   </script>
 
   <!-- Include the Github contribution library. -->
-  <script
-    src="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.min.js">
+  <script src="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.min.js">
   </script>
 
   <!-- Include the github theme (if you don't want to struggle to write the CSS) -->
-  <link
-    rel="stylesheet"
-    href="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.css"
-  />
+  <link rel="stylesheet" href="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.css" />
 
   <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -45,288 +48,287 @@
 
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
+  <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
         <![endif]-->
 
-      </head>
+</head>
 
-      <body id="page-top" class="index">
+<body id="page-top" class="index">
 
-        <!-- Navigation -->
-        <nav class="navbar navbar-default navbar-fixed-top">
-          <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+  <!-- Navigation -->
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header page-scroll">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand" href="#page-top">NateWelling.com</a>
-            </div>
+        <a class="navbar-brand" href="#page-top">NateWelling.com</a>
+      </div>
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-              <ul class="nav navbar-nav navbar-right">
-                <li class="hidden">
-                  <a href="#page-top"></a>
-                </li>
-                <li class="page-scroll">
-                  <a href="#portfolio">Portfolio</a>
-                </li>
-                <li class="page-scroll">
-                  <a href="#about">About</a>
-                </li>
-                <li class="page-scroll">
-                  <a href="#contact">Contact</a>
-                </li>
-              </ul>
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="hidden">
+            <a href="#page-top"></a>
+          </li>
+          <li class="page-scroll">
+            <a href="#portfolio">Portfolio</a>
+          </li>
+          <li class="page-scroll">
+            <a href="#about">About</a>
+          </li>
+          <li class="page-scroll">
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+      <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+  </nav>
+
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-3 col-sm-offset-2">
+          <img class="img-responsive img-rounded" src="img/color.png" alt="Nate Welling">
+        </div>
+        <div class="col-sm-5 hidden-lg hidden-md">
+          <div class="col-xs-12">
+            <div class="intro-text">
+              <span class="name">Nate Welling</span>
+              <!-- <hr class="star-light"> -->
+              <span class="skills">Full stack Ruby on Rails web developer</span>
             </div>
-            <!-- /.navbar-collapse -->
           </div>
-          <!-- /.container-fluid -->
-        </nav>
+          <div class="col-xs-12">
+            <ul class="list-inline">
+              <li>
+                <a href="https://github.com/naterexw" target="_blank" class="btn-social btn-outline" data-toggle="tooltip" data-placement="bottom" title="Github"><i class="fa fa-fw fa-github"></i></a>
+              </li>
+              <li>
+                <a href="https://twitter.com/naterexw" target="_blank" class="btn-social btn-outline" data-toggle="tooltip" data-placement="bottom" title="Twitter"><i class="fa fa-fw fa-twitter"></i></a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/in/natewelling/" target="_blank" class="btn-social btn-outline" data-toggle="tooltip" data-placement="bottom" title="Linkedin"><i class="fa fa-fw fa-linkedin"></i></a>
+              </li>
+            </ul>
 
-        <!-- Header -->
-        <header>
-          <div class="container">
-            <div class="row">
-              <div class="col-sm-3 col-sm-offset-2">
-                <img class="img-responsive img-rounded" src="img/color.png" alt="Nate Welling">
-              </div>
-              <div class="col-sm-5 hidden-lg hidden-md">
-                <div class="col-xs-12">
-                  <div class="intro-text">
-                    <span class="name">Nate Welling</span>
-                    <!-- <hr class="star-light"> -->
-                    <span class="skills">Full stack Ruby on Rails web developer</span>
-                  </div>
-                </div>
-                <div class="col-xs-12">
-                  <ul class="list-inline">
-                    <li>
-                      <a href="https://github.com/naterexw" target="_blank" class="btn-social btn-outline" data-toggle="tooltip" data-placement="bottom" title="Github"><i class="fa fa-fw fa-github"></i></a>
-                    </li>
-                    <li>
-                      <a href="https://twitter.com/naterexw" target="_blank" class="btn-social btn-outline" data-toggle="tooltip" data-placement="bottom" title="Twitter"><i class="fa fa-fw fa-twitter"></i></a>
-                    </li>
-                    <li>
-                      <a href="https://www.linkedin.com/in/natewelling" target="_blank" class="btn-social btn-outline" data-toggle="tooltip" data-placement="bottom" title="Linkedin"><i class="fa fa-fw fa-linkedin"></i></a>
-                    </li>
-                  </ul>
-
-                  <a href="#contact" class="btn btn-lg btn-outline">
+            <a href="#contact" class="btn btn-lg btn-outline">
                     <i class="fa fa-envelope"></i> Contact me
                   </a>
-                </div>
-              </div>
-              <div class="col-sm-5 hidden-xs hidden-sm text-left">
-                <div class="col-xs-12">
-                  <div class="intro-text">
-                    <span class="name">Nate Welling</span>
-                    <!-- <hr class="star-light"> -->
-                    <span class="skills">Fullstack Ruby on Rails web developer</span>
-                  </div>
-                </div>
-                <div class="col-xs-12">
-                  <ul class="list-inline">
-                    <li>
-                      <a href="https://github.com/naterexw" target="_blank" class="btn-social btn-outline" data-toggle="tooltip" data-placement="bottom" title="Github"><i class="fa fa-fw fa-github"></i></a>
-                    </li>
-                    <li>
-                      <a href="https://twitter.com/naterexw" target="_blank" class="btn-social btn-outline" data-toggle="tooltip" data-placement="bottom" title="Twitter"><i class="fa fa-fw fa-twitter"></i></a>
-                    </li>
-                    <li>
-                      <a href="https://www.linkedin.com/in/natewelling" target="_blank" class="btn-social btn-outline" data-toggle="tooltip" data-placement="bottom" title="Linkedin"><i class="fa fa-fw fa-linkedin"></i></a>
-                    </li>
-                  </ul>
-                  <a href="#contact" class="btn btn-lg btn-outline">
+          </div>
+        </div>
+        <div class="col-sm-5 hidden-xs hidden-sm text-left">
+          <div class="col-xs-12">
+            <div class="intro-text">
+              <span class="name">Nate Welling</span>
+              <!-- <hr class="star-light"> -->
+              <span class="skills">Fullstack Ruby on Rails web developer</span>
+            </div>
+          </div>
+          <div class="col-xs-12">
+            <ul class="list-inline">
+              <li>
+                <a href="https://github.com/naterexw" target="_blank" class="btn-social btn-outline" data-toggle="tooltip" data-placement="bottom" title="Github"><i class="fa fa-fw fa-github"></i></a>
+              </li>
+              <li>
+                <a href="https://twitter.com/naterexw" target="_blank" class="btn-social btn-outline" data-toggle="tooltip" data-placement="bottom" title="Twitter"><i class="fa fa-fw fa-twitter"></i></a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/in/natewelling/" target="_blank" class="btn-social btn-outline" data-toggle="tooltip" data-placement="bottom" title="Linkedin"><i class="fa fa-fw fa-linkedin"></i></a>
+              </li>
+            </ul>
+            <a href="#contact" class="btn btn-lg btn-outline">
                     <i class="fa fa-envelope"></i> Contact me
                   </a>
-                </div>
-              </div>
-            </div>
           </div>
-        </header>
+        </div>
+      </div>
+    </div>
+  </header>
 
-        <!-- Portfolio Grid Section -->
-        <section id="portfolio">
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-12 text-center">
-                <!-- <h2>Github Contributions</h2><br> -->
-                <!-- Prepare a container for your calendar. -->
-                <div class="calendar">
-                    <!-- Loading stuff -->
-                    Loading the data just for you.
-                </div>
-
-                <script>
-                    GitHubCalendar(".calendar", "naterexw");
-                </script>
-                <!-- <a href="https://github.com/naterexw"><img src="http://ghchart.rshah.org/naterexw" alt="Nate's Github contribution chart" /></a> -->
-              </div>
-            </div>
-            <br><br><br>
-            <div class="row">
-              <div class="col-lg-12 text-center">
-                <h2>Client Portfolio</h2>
-                <hr>
-                <!-- <hr class="star-primary"> -->
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-sm-4 portfolio-item">
-                <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
-                  <div class="caption">
-                    <div class="caption-content">
-                      <i class="fa fa-search-plus fa-3x"></i>
-                    </div>
-                  </div>
-                  <img src="img/portfolio/gafv.png" class="img-responsive" alt="">
-                </a>
-              </div>
-              <div class="col-sm-4 portfolio-item">
-                <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
-                  <div class="caption">
-                    <div class="caption-content">
-                      <i class="fa fa-search-plus fa-3x"></i>
-                    </div>
-                  </div>
-                  <img src="img/portfolio/ioffc.png" class="img-responsive" alt="">
-                </a>
-              </div>
-              <div class="col-sm-4 portfolio-item">
-                <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
-                  <div class="caption">
-                    <div class="caption-content">
-                      <i class="fa fa-search-plus fa-3x"></i>
-                    </div>
-                  </div>
-                  <img src="img/portfolio/css.png" class="img-responsive" alt="">
-                </a>
-              </div>
-            </div>
-
-            <br>
-
-            <div class="row">
-              <div class="col-lg-12 text-center">
-                <h2>Prototypes</h2>
-                <hr>
-                <!-- <hr class="star-primary"> -->
-              </div>
-            </div>
-
-            <div class="row">
-              <div class="col-sm-4 portfolio-item">
-                <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
-                  <div class="caption">
-                    <div class="caption-content">
-                      <i class="fa fa-search-plus fa-3x"></i>
-                    </div>
-                  </div>
-                  <img src="img/portfolio/fiverr.png" class="img-responsive" alt="">
-                </a>
-              </div>
-
-              <div class="col-sm-4 portfolio-item">
-                <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
-                  <div class="caption">
-                    <div class="caption-content">
-                      <i class="fa fa-search-plus fa-3x"></i>
-                    </div>
-                  </div>
-                  <img src="img/portfolio/payeat.png" class="img-responsive" alt="">
-                </a>
-              </div>
-
-              <div class="col-sm-4 portfolio-item">
-                <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
-                  <div class="caption">
-                    <div class="caption-content">
-                      <i class="fa fa-search-plus fa-3x"></i>
-                    </div>
-                  </div>
-                  <img src="img/portfolio/recipe.png" class="img-responsive" alt="">
-                </a>
-              </div>
-            </div>
-
-            <div class="row">
-              <div class="col-sm-4 portfolio-item">
-                <a href="#portfolioModal7" class="portfolio-link" data-toggle="modal">
-                  <div class="caption">
-                    <div class="caption-content">
-                      <i class="fa fa-search-plus fa-3x"></i>
-                    </div>
-                  </div>
-                  <img src="img/portfolio/blog.png" class="img-responsive" alt="">
-                </a>
-              </div>
-
-              <div class="col-sm-4 portfolio-item">
-                <a href="#portfolioModal8" class="portfolio-link" data-toggle="modal">
-                  <div class="caption">
-                    <div class="caption-content">
-                      <i class="fa fa-search-plus fa-3x"></i>
-                    </div>
-                  </div>
-                  <img src="img/portfolio/pinterest.png" class="img-responsive" alt="">
-                </a>
-              </div>
-            </div>
-
+  <!-- Portfolio Grid Section -->
+  <section id="portfolio">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <!-- <h2>Github Contributions</h2><br> -->
+          <!-- Prepare a container for your calendar. -->
+          <div class="calendar">
+            <!-- Loading stuff -->
+            Loading the data just for you.
           </div>
-        </section>
 
-        <!-- About Section -->
-        <section class="success" id="about">
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-12 text-center">
-                <h2>About</h2>
-                <br><br>
-                <!-- <hr class="star-light"> -->
+          <script>
+            GitHubCalendar(".calendar", "naterexw");
+          </script>
+          <!-- <a href="https://github.com/naterexw"><img src="http://ghchart.rshah.org/naterexw" alt="Nate's Github contribution chart" /></a> -->
+        </div>
+      </div>
+      <br><br><br>
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2>Client Portfolio</h2>
+          <hr>
+          <!-- <hr class="star-primary"> -->
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-4 portfolio-item">
+          <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+            <div class="caption">
+              <div class="caption-content">
+                <i class="fa fa-search-plus fa-3x"></i>
               </div>
             </div>
-            <div class="row">
-              <div class="col-xs-4 text-right">
-                <p>Specialization:</p>
-              </div>
-              <div class="col-xs-8">
-                <p>- Fast web development to bring app ideas to life<br>
-                  - Optimizing layout & user-interface of apps for conversion optimization</p>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-xs-4 text-right">
-                <p>Frontend:</p>
-              </div>
-              <div class="col-xs-8">
-                <p>Foundation, Bootstrap 3 & 4</p>
+            <img src="img/portfolio/gafv.png" class="img-responsive" alt="">
+          </a>
+        </div>
+        <div class="col-sm-4 portfolio-item">
+          <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+            <div class="caption">
+              <div class="caption-content">
+                <i class="fa fa-search-plus fa-3x"></i>
               </div>
             </div>
-            <div class="row">
-              <div class="col-xs-4 text-right">
-                <p>Backend:</p>
-              </div>
-              <div class="col-xs-8">
-                <p>Rails 4 & 5, Postgresql, Redis, Sidekiq</p>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-xs-4 text-right">
-                <p>Deployment:</p>
-              </div>
-              <div class="col-xs-8">
-                <p>Heroku, Amazon AWS</p>
+            <img src="img/portfolio/ioffc.png" class="img-responsive" alt="">
+          </a>
+        </div>
+        <div class="col-sm-4 portfolio-item">
+          <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+            <div class="caption">
+              <div class="caption-content">
+                <i class="fa fa-search-plus fa-3x"></i>
               </div>
             </div>
-            <!-- <div class="row">
+            <img src="img/portfolio/css.png" class="img-responsive" alt="">
+          </a>
+        </div>
+      </div>
+
+      <br>
+
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2>Prototypes</h2>
+          <hr>
+          <!-- <hr class="star-primary"> -->
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-4 portfolio-item">
+          <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+            <div class="caption">
+              <div class="caption-content">
+                <i class="fa fa-search-plus fa-3x"></i>
+              </div>
+            </div>
+            <img src="img/portfolio/fiverr.png" class="img-responsive" alt="">
+          </a>
+        </div>
+
+        <div class="col-sm-4 portfolio-item">
+          <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+            <div class="caption">
+              <div class="caption-content">
+                <i class="fa fa-search-plus fa-3x"></i>
+              </div>
+            </div>
+            <img src="img/portfolio/payeat.png" class="img-responsive" alt="">
+          </a>
+        </div>
+
+        <div class="col-sm-4 portfolio-item">
+          <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+            <div class="caption">
+              <div class="caption-content">
+                <i class="fa fa-search-plus fa-3x"></i>
+              </div>
+            </div>
+            <img src="img/portfolio/recipe.png" class="img-responsive" alt="">
+          </a>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-4 portfolio-item">
+          <a href="#portfolioModal7" class="portfolio-link" data-toggle="modal">
+            <div class="caption">
+              <div class="caption-content">
+                <i class="fa fa-search-plus fa-3x"></i>
+              </div>
+            </div>
+            <img src="img/portfolio/blog.png" class="img-responsive" alt="">
+          </a>
+        </div>
+
+        <div class="col-sm-4 portfolio-item">
+          <a href="#portfolioModal8" class="portfolio-link" data-toggle="modal">
+            <div class="caption">
+              <div class="caption-content">
+                <i class="fa fa-search-plus fa-3x"></i>
+              </div>
+            </div>
+            <img src="img/portfolio/pinterest.png" class="img-responsive" alt="">
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="success" id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2>About</h2>
+          <br><br>
+          <!-- <hr class="star-light"> -->
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-4 text-right">
+          <p>Specialization:</p>
+        </div>
+        <div class="col-xs-8">
+          <p>- Fast web development to bring app ideas to life<br> - Optimizing layout & user-interface of apps for conversion optimization</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-4 text-right">
+          <p>Frontend:</p>
+        </div>
+        <div class="col-xs-8">
+          <p>Bootstrap 3 & 4</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-4 text-right">
+          <p>Backend:</p>
+        </div>
+        <div class="col-xs-8">
+          <p>Rails 4 & 5, Postgresql, Redis, Sidekiq</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-4 text-right">
+          <p>Deployment:</p>
+        </div>
+        <div class="col-xs-8">
+          <p>Heroku, Amazon AWS</p>
+        </div>
+      </div>
+      <!-- <div class="row">
               <div class="col-xs-4 text-right">
                 <p>Currently:</p>
               </div>
@@ -334,44 +336,59 @@
                 <p>I am <span class="label label-warning">available</span> for hire.</p>
               </div>
             </div> -->
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2>Contact Me</h2>
+          <!-- <hr> -->
+          <!-- <hr class="star-primary"> -->
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
+          <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
+          <div id="wufoo-zm0cku70qeru34">
+            Fill out my <a href="https://naterexw.wufoo.com/forms/zm0cku70qeru34">online form</a>.
           </div>
-        </section>
+          <script type="text/javascript">
+            var zm0cku70qeru34;
+            (function(d, t) {
+              var s = d.createElement(t),
+                options = {
+                  'userName': 'naterexw',
+                  'formHash': 'zm0cku70qeru34',
+                  'autoResize': true,
+                  'height': '517',
+                  'async': true,
+                  'host': 'wufoo.com',
+                  'header': 'show',
+                  'ssl': true
+                };
+              s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'www.wufoo.com/scripts/embed/form.js';
+              s.onload = s.onreadystatechange = function() {
+                var rs = this.readyState;
+                if (rs)
+                  if (rs != 'complete')
+                    if (rs != 'loaded') return;
+                try {
+                  zm0cku70qeru34 = new WufooForm();
+                  zm0cku70qeru34.initialize(options);
+                  zm0cku70qeru34.display();
+                } catch (e) {}
+              };
+              var scr = d.getElementsByTagName(t)[0],
+                par = scr.parentNode;
+              par.insertBefore(s, scr);
+            })(document, 'script');
+          </script>
 
-        <!-- Contact Section -->
-        <section id="contact">
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-12 text-center">
-                <h2>Contact Me</h2>
-                <!-- <hr> -->
-                <!-- <hr class="star-primary"> -->
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-8 col-lg-offset-2">
-                <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
-                <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
-                <div id="wufoo-zm0cku70qeru34">
-                Fill out my <a href="https://naterexw.wufoo.com/forms/zm0cku70qeru34">online form</a>.
-                </div>
-                <script type="text/javascript">var zm0cku70qeru34;(function(d, t) {
-                var s = d.createElement(t), options = {
-                'userName':'naterexw',
-                'formHash':'zm0cku70qeru34',
-                'autoResize':true,
-                'height':'517',
-                'async':true,
-                'host':'wufoo.com',
-                'header':'show',
-                'ssl':true};
-                s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'www.wufoo.com/scripts/embed/form.js';
-                s.onload = s.onreadystatechange = function() {
-                var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
-                try { zm0cku70qeru34 = new WufooForm();zm0cku70qeru34.initialize(options);zm0cku70qeru34.display(); } catch (e) {}};
-                var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
-                })(document, 'script');</script>
-
-<!--                 <form name="sentMessage" id="contactForm" novalidate>
+          <!--                 <form name="sentMessage" id="contactForm" novalidate>
                   <div class="row control-group">
                     <div class="form-group col-xs-12 floating-label-form-group controls">
                       <label>Name</label>
@@ -408,21 +425,21 @@
                     </div>
                   </div>
                 </form> -->
-              </div>
-            </div>
-          </div>
-        </section>
+        </div>
+      </div>
+    </div>
+  </section>
 
-        <!-- Footer -->
-        <footer class="text-center">
-          <div class="footer-above">
-            <div class="container">
-              <div class="row">
-                <div class="footer-col col-md-6">
-                  <!-- <h3>Location</h3> -->
-                  <p>Copyright 2017 &copy; NateWelling.com</p>
-                </div>
-<!--                 <div class="footer-col col-md-4">
+  <!-- Footer -->
+  <footer class="text-center">
+    <div class="footer-above">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col col-md-6">
+            <!-- <h3>Location</h3> -->
+            <p>Copyright 2017 &copy; NateWelling.com</p>
+          </div>
+          <!--                 <div class="footer-col col-md-4">
                   <h3>Around the Web</h3>
                   <ul class="list-inline">
                     <li>
@@ -436,13 +453,13 @@
                     </li>
                   </ul>
                 </div> -->
-                <div class="footer-col col-md-6">
-                  <p>Designed and coded with <i class="fa fa-heart"></i></p>
-                </div>
-              </div>
-            </div>
+          <div class="footer-col col-md-6">
+            <p>Designed and coded with <i class="fa fa-heart"></i></p>
           </div>
-<!--           <div class="footer-below">
+        </div>
+      </div>
+    </div>
+    <!--           <div class="footer-below">
             <div class="container">
               <div class="row">
                 <div class="col-lg-12">
@@ -451,338 +468,338 @@
               </div>
             </div>
           </div> -->
-        </footer>
+  </footer>
 
-        <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
-        <div class="scroll-top page-scroll visible-xs visible-sm">
-          <a class="btn btn-primary" href="#page-top">
+  <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+  <div class="scroll-top page-scroll visible-xs visible-sm">
+    <a class="btn btn-primary" href="#page-top">
             <i class="fa fa-chevron-up"></i>
           </a>
-        </div>
+  </div>
 
-        <!-- Portfolio Modals -->
-        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-          <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-              <div class="lr">
-                <div class="rl">
-                </div>
-              </div>
-            </div>
-            <div class="container">
-              <div class="row">
-                <div class="col-lg-8 col-lg-offset-2">
-                  <div class="modal-body">
-                    <h2>Getaudiofromvideo.com</h2>
-                    <hr class="star-primary">
-                    <img src="img/portfolio/gafv.png" class="img-responsive img-centered" alt="">
-                    <p>Online Youtube video converter and downloader</p>
-                    <ul class="list-inline item-details">
-                      <li>Client:
-                        <strong><a href="http://getaudiofromvideo.com" target="_blank">GetAudioFromVideo.com</a>
+  <!-- Portfolio Modals -->
+  <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+      <div class="close-modal" data-dismiss="modal">
+        <div class="lr">
+          <div class="rl">
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2">
+            <div class="modal-body">
+              <h2>Getaudiofromvideo.com</h2>
+              <hr class="star-primary">
+              <img src="img/portfolio/gafv.png" class="img-responsive img-centered" alt="">
+              <p>Online Youtube video converter and downloader</p>
+              <ul class="list-inline item-details">
+                <li>Client:
+                  <strong><a href="http://getaudiofromvideo.com" target="_blank">GetAudioFromVideo.com</a>
                         </strong>
-                      </li>
-                      <li>Date:
-                        <strong>January 2010
+                </li>
+                <li>Date:
+                  <strong>January 2010
                         </strong>
-                      </li>
-                      <li>Service:
-                        <strong>Fullstack (front & backend)
+                </li>
+                <li>Service:
+                  <strong>Fullstack (front & backend)
                         </strong>
-                      </li>
-                    </ul>
-                    <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                  </div>
-                </div>
-              </div>
+                </li>
+              </ul>
+              <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
             </div>
           </div>
         </div>
-        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-          <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-              <div class="lr">
-                <div class="rl">
-                </div>
-              </div>
-            </div>
-            <div class="container">
-              <div class="row">
-                <div class="col-lg-8 col-lg-offset-2">
-                  <div class="modal-body">
-                    <h2>IOnlyFlyFirstClass.com</h2>
-                    <hr class="star-primary">
-                    <img src="img/portfolio/ioffc.png" class="img-responsive img-centered" alt="">
-                    <p>First & business class flights luxury travel agency</p>
-                    <ul class="list-inline item-details">
-                      <li>Client:
-                        <strong><a href="http://ionlyflyfirstclass.com" target="_blank">IOnlyFlyFirstClass.com</a>
+      </div>
+    </div>
+  </div>
+  <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+      <div class="close-modal" data-dismiss="modal">
+        <div class="lr">
+          <div class="rl">
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2">
+            <div class="modal-body">
+              <h2>IOnlyFlyFirstClass.com</h2>
+              <hr class="star-primary">
+              <img src="img/portfolio/ioffc.png" class="img-responsive img-centered" alt="">
+              <p>First & business class flights luxury travel agency</p>
+              <ul class="list-inline item-details">
+                <li>Client:
+                  <strong><a href="http://ionlyflyfirstclass.com" target="_blank">IOnlyFlyFirstClass.com</a>
                         </strong>
-                      </li>
-                      <li>Date:
-                        <strong>February 2015
+                </li>
+                <li>Date:
+                  <strong>February 2015
                         </strong>
-                      </li>
-                      <li>Service:
-                        <strong>Frontend
+                </li>
+                <li>Service:
+                  <strong>Frontend
                         </strong>
-                      </li>
-                    </ul>
-                    <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                  </div>
-                </div>
-              </div>
+                </li>
+              </ul>
+              <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
             </div>
           </div>
         </div>
-        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-          <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-              <div class="lr">
-                <div class="rl">
-                </div>
-              </div>
-            </div>
-            <div class="container">
-              <div class="row">
-                <div class="col-lg-8 col-lg-offset-2">
-                  <div class="modal-body">
-                    <h2>CSSButtonGenerator.com</h2>
-                    <hr class="star-primary">
-                    <img src="img/portfolio/css.png" class="img-responsive img-centered" alt="">
-                    <p>Create website buttons using HTML & CSS</p>
-                    <ul class="list-inline item-details">
-                      <li>Client:
-                        <strong><a href="http://cssbuttongenerator.com" target="_blank">CSSButtonGenerator.com</a>
+      </div>
+    </div>
+  </div>
+  <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+      <div class="close-modal" data-dismiss="modal">
+        <div class="lr">
+          <div class="rl">
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2">
+            <div class="modal-body">
+              <h2>CSSButtonGenerator.com</h2>
+              <hr class="star-primary">
+              <img src="img/portfolio/css.png" class="img-responsive img-centered" alt="">
+              <p>Create website buttons using HTML & CSS</p>
+              <ul class="list-inline item-details">
+                <li>Client:
+                  <strong><a href="http://cssbuttongenerator.com" target="_blank">CSSButtonGenerator.com</a>
                         </strong>
-                      </li>
-                      <li>Date:
-                        <strong>March 2014
+                </li>
+                <li>Date:
+                  <strong>March 2014
                         </strong>
-                      </li>
-                      <li>Service:
-                        <strong>Fullstack (front & backend)
+                </li>
+                <li>Service:
+                  <strong>Fullstack (front & backend)
                         </strong>
-                      </li>
-                    </ul>
-                    <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                  </div>
-                </div>
-              </div>
+                </li>
+              </ul>
+              <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
             </div>
           </div>
         </div>
-        <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
-          <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-              <div class="lr">
-                <div class="rl">
-                </div>
-              </div>
-            </div>
-            <div class="container">
-              <div class="row">
-                <div class="col-lg-8 col-lg-offset-2">
-                  <div class="modal-body">
-                    <h2>Fiverr clone</h2>
-                    <hr class="star-primary">
-                    <img src="img/portfolio/fiverr.png" class="img-responsive img-centered" alt="">
-                    <p>Fiverr clone built using Ruby on Rails</p>
-                    <ul class="list-inline item-details">
-                      <li>Link:
-                        <strong><a href="http://fiverr-clone.herokuapp.com" target="_blank">Fiverr clone</a>
+      </div>
+    </div>
+  </div>
+  <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+      <div class="close-modal" data-dismiss="modal">
+        <div class="lr">
+          <div class="rl">
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2">
+            <div class="modal-body">
+              <h2>Fiverr clone</h2>
+              <hr class="star-primary">
+              <img src="img/portfolio/fiverr.png" class="img-responsive img-centered" alt="">
+              <p>Fiverr clone built using Ruby on Rails</p>
+              <ul class="list-inline item-details">
+                <li>Link:
+                  <strong><a href="http://fiverr-clone.herokuapp.com" target="_blank">Fiverr clone</a>
                         </strong>
-                      </li>
-                      <li>Date:
-                        <strong>January 2017
+                </li>
+                <li>Date:
+                  <strong>January 2017
                         </strong>
-                      </li>
-                      <li>Service:
-                        <strong>Fullstack (front & backend)
+                </li>
+                <li>Service:
+                  <strong>Fullstack (front & backend)
                         </strong>
-                      </li>
-                    </ul>
-                    <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                  </div>
-                </div>
-              </div>
+                </li>
+              </ul>
+              <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
             </div>
           </div>
         </div>
-        <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
-          <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-              <div class="lr">
-                <div class="rl">
-                </div>
-              </div>
-            </div>
-            <div class="container">
-              <div class="row">
-                <div class="col-lg-8 col-lg-offset-2">
-                  <div class="modal-body">
-                    <h2>PayEat</h2>
-                    <hr class="star-primary">
-                    <img src="img/portfolio/payeat.png" class="img-responsive img-centered" alt="">
-                    <p>Order taking and payment app for restaurants</p>
-                    <ul class="list-inline item-details">
-                      <li>Link:
-                        <strong><a href="http://payeat.herokuapp.com" target="_blank">PayEat</a>
+      </div>
+    </div>
+  </div>
+  <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+      <div class="close-modal" data-dismiss="modal">
+        <div class="lr">
+          <div class="rl">
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2">
+            <div class="modal-body">
+              <h2>PayEat</h2>
+              <hr class="star-primary">
+              <img src="img/portfolio/payeat.png" class="img-responsive img-centered" alt="">
+              <p>Order taking and payment app for restaurants</p>
+              <ul class="list-inline item-details">
+                <li>Link:
+                  <strong><a href="http://payeat.herokuapp.com" target="_blank">PayEat</a>
                         </strong>
-                      </li>
-                      <li>Date:
-                        <strong>March 2016
+                </li>
+                <li>Date:
+                  <strong>March 2016
                         </strong>
-                      </li>
-                      <li>Service:
-                        <strong>Fullstack (front & backend)
+                </li>
+                <li>Service:
+                  <strong>Fullstack (front & backend)
                         </strong>
-                      </li>
-                    </ul>
-                    <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                  </div>
-                </div>
-              </div>
+                </li>
+              </ul>
+              <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
             </div>
           </div>
         </div>
-        <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
-          <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-              <div class="lr">
-                <div class="rl">
-                </div>
-              </div>
-            </div>
-            <div class="container">
-              <div class="row">
-                <div class="col-lg-8 col-lg-offset-2">
-                  <div class="modal-body">
-                    <h2>RecipeVault</h2>
-                    <hr class="star-primary">
-                    <img src="img/portfolio/recipe.png" class="img-responsive img-centered" alt="">
-                    <p>
-                      Online recipe database app
-                    </p>
-                    <ul class="list-inline item-details">
-                      <li>Link:
-                        <strong><a href="http://recipe-vault.herokuapp.com/" target="_blank">Recipe Vault</a>
+      </div>
+    </div>
+  </div>
+  <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+      <div class="close-modal" data-dismiss="modal">
+        <div class="lr">
+          <div class="rl">
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2">
+            <div class="modal-body">
+              <h2>RecipeVault</h2>
+              <hr class="star-primary">
+              <img src="img/portfolio/recipe.png" class="img-responsive img-centered" alt="">
+              <p>
+                Online recipe database app
+              </p>
+              <ul class="list-inline item-details">
+                <li>Link:
+                  <strong><a href="http://recipe-vault.herokuapp.com/" target="_blank">Recipe Vault</a>
                         </strong>
-                      </li>
-                      <li>Date:
-                        <strong>December 2015
+                </li>
+                <li>Date:
+                  <strong>December 2015
                         </strong>
-                      </li>
-                      <li>Service:
-                        <strong>Fullstack (front & backend)
+                </li>
+                <li>Service:
+                  <strong>Fullstack (front & backend)
                         </strong>
-                      </li>
-                    </ul>
-                    <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                  </div>
-                </div>
-              </div>
+                </li>
+              </ul>
+              <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
             </div>
           </div>
         </div>
-        <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
-          <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-              <div class="lr">
-                <div class="rl">
-                </div>
-              </div>
-            </div>
-            <div class="container">
-              <div class="row">
-                <div class="col-lg-8 col-lg-offset-2">
-                  <div class="modal-body">
-                    <h2>Rails blog</h2>
-                    <hr class="star-primary">
-                    <img src="img/portfolio/blog.png" class="img-responsive img-centered" alt="">
-                    <p>
-                      Blog built using Ruby on Rails
-                    </p>
-                    <ul class="list-inline item-details">
-                      <li>Link:
-                        <strong><a href="http://sample-blog-rails.herokuapp.com" target="_blank">Rails blog</a>
+      </div>
+    </div>
+  </div>
+  <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+      <div class="close-modal" data-dismiss="modal">
+        <div class="lr">
+          <div class="rl">
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2">
+            <div class="modal-body">
+              <h2>Rails blog</h2>
+              <hr class="star-primary">
+              <img src="img/portfolio/blog.png" class="img-responsive img-centered" alt="">
+              <p>
+                Blog built using Ruby on Rails
+              </p>
+              <ul class="list-inline item-details">
+                <li>Link:
+                  <strong><a href="http://sample-blog-rails.herokuapp.com" target="_blank">Rails blog</a>
                         </strong>
-                      </li>
-                      <li>Date:
-                        <strong>November 2015
+                </li>
+                <li>Date:
+                  <strong>November 2015
                         </strong>
-                      </li>
-                      <li>Service:
-                        <strong>Fullstack (front & backend)
+                </li>
+                <li>Service:
+                  <strong>Fullstack (front & backend)
                         </strong>
-                      </li>
-                    </ul>
-                    <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                  </div>
-                </div>
-              </div>
+                </li>
+              </ul>
+              <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
             </div>
           </div>
         </div>
-        <div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" role="dialog" aria-hidden="true">
-          <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-              <div class="lr">
-                <div class="rl">
-                </div>
-              </div>
-            </div>
-            <div class="container">
-              <div class="row">
-                <div class="col-lg-8 col-lg-offset-2">
-                  <div class="modal-body">
-                    <h2>Pinterest clone</h2>
-                    <hr class="star-primary">
-                    <img src="img/portfolio/pinterest.png" class="img-responsive img-centered" alt="">
-                    <p>
-                      Clone of Pinterest built using Ruby on Rails
-                    </p>
-                    <ul class="list-inline item-details">
-                      <li>Link:
-                        <strong><a href="http://pinterest-omr.herokuapp.com/" target="_blank">Pinterest clone</a>
+      </div>
+    </div>
+  </div>
+  <div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+      <div class="close-modal" data-dismiss="modal">
+        <div class="lr">
+          <div class="rl">
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2">
+            <div class="modal-body">
+              <h2>Pinterest clone</h2>
+              <hr class="star-primary">
+              <img src="img/portfolio/pinterest.png" class="img-responsive img-centered" alt="">
+              <p>
+                Clone of Pinterest built using Ruby on Rails
+              </p>
+              <ul class="list-inline item-details">
+                <li>Link:
+                  <strong><a href="http://pinterest-omr.herokuapp.com/" target="_blank">Pinterest clone</a>
                         </strong>
-                      </li>
-                      <li>Date:
-                        <strong>October 2015
+                </li>
+                <li>Date:
+                  <strong>October 2015
                         </strong>
-                      </li>
-                      <li>Service:
-                        <strong>Fullstack (front & backend)
+                </li>
+                <li>Service:
+                  <strong>Fullstack (front & backend)
                         </strong>
-                      </li>
-                    </ul>
-                    <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                  </div>
-                </div>
-              </div>
+                </li>
+              </ul>
+              <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
             </div>
           </div>
         </div>
+      </div>
+    </div>
+  </div>
 
 
-        <!-- jQuery -->
-        <script src="js/jquery.js"></script>
+  <!-- jQuery -->
+  <script src="js/jquery.js"></script>
 
-        <!-- Bootstrap Core JavaScript -->
-        <script src="js/bootstrap.min.js"></script>
+  <!-- Bootstrap Core JavaScript -->
+  <script src="js/bootstrap.min.js"></script>
 
-        <!-- Plugin JavaScript -->
-        <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-        <script src="js/classie.js"></script>
-        <script src="js/cbpAnimatedHeader.js"></script>
+  <!-- Plugin JavaScript -->
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+  <script src="js/classie.js"></script>
+  <script src="js/cbpAnimatedHeader.js"></script>
 
-        <!-- Contact Form JavaScript -->
-        <script src="js/jqBootstrapValidation.js"></script>
-        <script src="js/contact_me.js"></script>
+  <!-- Contact Form JavaScript -->
+  <script src="js/jqBootstrapValidation.js"></script>
+  <script src="js/contact_me.js"></script>
 
-        <!-- Custom Theme JavaScript -->
-        <script src="js/freelancer.js"></script>
+  <!-- Custom Theme JavaScript -->
+  <script src="js/freelancer.js"></script>
 
-      </body>
+</body>
 
-      </html>
+</html>
