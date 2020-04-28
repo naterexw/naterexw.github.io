@@ -1,6 +1,0 @@
-@blockBackground: @gray-dark;
-@attachedBackground: @gray-darker;
-
-
-/* Sub Header */
-@subHeaderColor: @gray-lighter;
